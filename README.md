@@ -18,7 +18,7 @@
  
  * Fluent design approach
  
- * Data Driven framework
+ * Read Data from external JSON file
   
  ### 🗃️ Documentation
 * **[Appium Docs](http://appium.io/docs/en/2.0/quickstart/)**
