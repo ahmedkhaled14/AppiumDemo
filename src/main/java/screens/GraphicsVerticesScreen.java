@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class GraphicsVerticesScreen {
+    private final By photo = AppiumBy.xpath("//android.widget.FrameLayout[@resource-id='android:id/content']");
     WebDriver driver;
     MobileActions mobileActions;
 
@@ -15,7 +16,6 @@ public class GraphicsVerticesScreen {
     }
 
     public GraphicsVerticesScreen swipePhoto() {
-        By photo = AppiumBy.xpath("//android.widget.FrameLayout[@resource-id='android:id/content']");
         mobileActions.swipeRightOnElement(photo, driver);
         mobileActions.swipeLeftOnElement(photo);
         return this;

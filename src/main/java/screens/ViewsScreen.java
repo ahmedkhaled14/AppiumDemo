@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 
 public class ViewsScreen {
     private final By radioGroup = AppiumBy.accessibilityId("Radio Group");
-
     WebDriver driver;
     MobileActions mobileActions;
 

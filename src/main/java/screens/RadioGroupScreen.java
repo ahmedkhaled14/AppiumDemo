@@ -7,7 +7,6 @@ import org.testng.Assert;
 
 public class RadioGroupScreen {
     private final By dinner = AppiumBy.accessibilityId("Dinner");
-
     WebDriver driver;
 
     public RadioGroupScreen(WebDriver driver) {
